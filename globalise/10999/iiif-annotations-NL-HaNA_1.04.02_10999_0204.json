@@ -1,0 +1,89 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/10999/iiif-annotations-NL-HaNA_1.04.02_10999_0204.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:9f24a432-53a9-482d-b658-90b05183dcc3",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10999.json/canvas/p204",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1986,758,324,63"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"63\" width=\"324\"><path d=\"M1986 758 L2310 758 L2310 821 L1986 821 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Gideron"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Location"
+                }
+            ]
+        },
+        {
+            "@id": "urn:globalise:annotation:23f4a4b0-38ed-4b67-9288-b9d7593e2a53",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10999.json/canvas/p204",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1922,882,362,66"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"66\" width=\"567\"><path d=\"M1922 882 L2284 882 L2284 948 L1922 948 Z M2334 880 L2901 880 L2901 932 L2334 932 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Bastian Nieuwekuijs"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

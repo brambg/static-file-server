@@ -1,0 +1,89 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/10121A/iiif-annotations-NL-HaNA_1.04.02_10121A_0198.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:96aa5846-10c7-4759-b84b-afebe9156342",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10121A.json/canvas/p198",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2540,724,304,49"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"49\" width=\"304\"><path d=\"M2540 724 L2844 724 L2844 773 L2540 773 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Eijsscher"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        },
+        {
+            "@id": "urn:globalise:annotation:3887a2d2-c78a-44fe-b034-5a677a38667c",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10121A.json/canvas/p198",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2149,1054,371,53"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"55\" width=\"371\"><path d=\"M2149 1054 L2520 1054 L2520 1107 L2149 1107 Z M2580 1041 L2950 1041 L2950 1096 L2580 1096 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Petrus Vuijst"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

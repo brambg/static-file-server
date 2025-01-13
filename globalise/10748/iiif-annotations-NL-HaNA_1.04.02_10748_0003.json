@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/10748/iiif-annotations-NL-HaNA_1.04.02_10748_0003.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:d275c9c2-4b28-4f1a-9d71-6458353f2047",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10748.json/canvas/p3",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=944,901,301,58"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"62\" width=\"826\"><path d=\"M944 901 L1245 901 L1245 959 L944 959 Z M1312 897 L2138 897 L2138 959 L1312 959 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Jug Register"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Location"
+                }
+            ]
+        }
+    ]
+}

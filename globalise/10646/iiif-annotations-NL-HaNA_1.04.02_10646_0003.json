@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/10646/iiif-annotations-NL-HaNA_1.04.02_10646_0003.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:54af99d3-2cfa-4cd1-aa79-40e5939435c2",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10646.json/canvas/p3",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2491,872,266,50"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"50\" width=\"266\"><path d=\"M2491 872 L2757 872 L2757 922 L2491 922 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Geelvinck"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

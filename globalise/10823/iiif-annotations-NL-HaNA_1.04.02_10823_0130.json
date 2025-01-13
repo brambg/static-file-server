@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/10823/iiif-annotations-NL-HaNA_1.04.02_10823_0130.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:ef5cf560-0fd0-447a-8419-5176e8ff841a",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/10823.json/canvas/p130",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1596,915,234,54"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"54\" width=\"361\"><path d=\"M1596 915 L1830 915 L1830 969 L1596 969 Z M1875 926 L1969 926 L1969 972 L1875 972 Z M2014 927 L2250 927 L2250 976 L2014 976 Z M2293 933 L2435 933 L2435 981 L2293 981 Z M2480 938 L2807 938 L2807 989 L2480 989 Z M2852 942 L3041 942 L3041 990 L2852 990 Z M1235 1040 L1596 1040 L1596 1088 L1235 1088 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "30=en en 31=en der voorsz: maan Januarij"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Date"
+                }
+            ]
+        }
+    ]
+}

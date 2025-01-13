@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/11002/iiif-annotations-NL-HaNA_1.04.02_11002_0106.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:58cbf58c-334d-45b1-9fd8-6bc09eab0e90",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/11002.json/canvas/p106",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1799,927,245,47"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"54\" width=\"246\"><path d=\"M1799 927 L2044 927 L2044 974 L1799 974 Z M2081 917 L2327 917 L2327 971 L2081 971 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Pieter Jansz"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

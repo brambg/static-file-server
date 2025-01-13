@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1109/iiif-annotations-NL-HaNA_1.04.02_1109_0152.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:699b2a60-a39e-4959-89e7-3c11d56dff54",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1109.json/canvas/p152",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1924,650,257,58"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"708\" width=\"2478\"><path d=\"M1924 663 L1974 661 L2023 658 L2073 655 L2124 653 L2173 650 L2178 650 L2181 695 L2176 695 L2125 698 L2076 700 L2026 703 L1975 706 L1925 708 Z M2221 647 L2223 647 L2274 645 L2322 641 L2374 640 L2424 639 L2473 636 L2476 636 L2478 681 L2476 681 L2425 684 L2375 685 L2326 686 L2275 690 L2226 692 L2223 692 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Daniel Trezel"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

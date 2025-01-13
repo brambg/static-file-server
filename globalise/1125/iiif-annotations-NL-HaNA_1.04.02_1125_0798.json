@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1125/iiif-annotations-NL-HaNA_1.04.02_1125_0798.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:ac85dcc4-2d8c-4a6a-8b8e-48a8b771e3b0",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1125.json/canvas/p798",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=827,1836,41,45"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1881\" width=\"1366\"><path d=\"M827 1836 L868 1836 L868 1881 L827 1881 Z M811 1312 L861 1314 L911 1315 L961 1316 L1010 1316 L1033 1317 L1031 1362 L1010 1361 L960 1361 L910 1360 L860 1359 L810 1357 Z M1134 1322 L1152 1318 L1209 1316 L1261 1317 L1310 1317 L1362 1320 L1366 1320 L1361 1365 L1359 1365 L1310 1362 L1260 1362 L1210 1361 L1162 1362 L1144 1366 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "2 \u201e gi de"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "CommodityQuantity"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1118/iiif-annotations-NL-HaNA_1.04.02_1118_0910.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:70907f1e-21dd-4b4f-856a-552c81138d46",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1118.json/canvas/p910",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2303,1366,499,68"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1434\" width=\"2802\"><path d=\"M2304 1388 L2354 1389 L2402 1388 L2449 1382 L2500 1378 L2552 1377 L2602 1376 L2654 1377 L2701 1374 L2750 1369 L2799 1366 L2802 1411 L2754 1414 L2704 1419 L2653 1422 L2603 1421 L2553 1422 L2504 1423 L2454 1427 L2403 1433 L2353 1434 L2303 1433 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Banda"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Location"
+                }
+            ]
+        }
+    ]
+}

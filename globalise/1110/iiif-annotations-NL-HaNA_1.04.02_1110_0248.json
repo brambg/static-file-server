@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1110/iiif-annotations-NL-HaNA_1.04.02_1110_0248.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:c79079c4-fa9e-4fb5-96f7-6d6264f2012c",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1110.json/canvas/p248",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2396,886,291,51"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"940\" width=\"2929\"><path d=\"M2400 886 L2450 890 L2497 890 L2548 891 L2597 891 L2648 892 L2687 892 L2687 937 L2647 937 L2597 936 L2547 936 L2497 935 L2446 935 L2396 931 Z M2745 893 L2756 896 L2796 893 L2847 893 L2896 892 L2929 893 L2929 938 L2897 937 L2847 938 L2797 938 L2744 940 L2733 937 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "vander Lijn"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

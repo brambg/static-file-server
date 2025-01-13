@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1095/iiif-annotations-NL-HaNA_1.04.02_1095_0109.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:f2daee29-1f92-47a0-804c-e859d4768391",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1095.json/canvas/p109",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1857,258,322,49"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"307\" width=\"2179\"><path d=\"M1857 262 L1866 262 L1916 260 L1966 258 L2018 260 L2067 260 L2116 259 L2166 258 L2179 258 L2179 303 L2167 303 L2117 304 L2067 305 L2017 305 L1967 303 L1917 305 L1867 307 L1858 307 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "moorschip"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "EthnoReligiousAppellation"
+                }
+            ]
+        }
+    ]
+}

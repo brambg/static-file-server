@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1062/iiif-annotations-NL-HaNA_1.04.02_1062_0190.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:fa2aba17-6018-4e6d-b478-6fef2acbca26",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1062.json/canvas/p190",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2478,997,142,46"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1062\" width=\"3044\"><path d=\"M2479 997 L2510 998 L2559 998 L2609 998 L2620 998 L2619 1043 L2609 1043 L2559 1043 L2509 1043 L2478 1042 Z M2666 999 L2709 999 L2760 1000 L2809 1000 L2861 1003 L2910 1004 L2963 1010 L3012 1014 L3044 1017 L3040 1062 L3008 1059 L2958 1055 L2909 1049 L2858 1048 L2809 1045 L2759 1045 L2709 1044 L2666 1044 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "van Libestie"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

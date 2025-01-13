@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1097/iiif-annotations-NL-HaNA_1.04.02_1097_1170.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:a3a51119-9ce7-432c-89ea-bea5ec4d552e",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1097.json/canvas/p1170",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1852,396,358,53"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"449\" width=\"2611\"><path d=\"M1855 401 L1905 404 L1952 402 L2002 401 L2052 399 L2102 398 L2152 396 L2203 396 L2210 396 L2210 441 L2203 441 L2153 441 L2103 443 L2053 444 L2003 446 L1953 447 L1902 449 L1852 446 Z M2254 396 L2303 396 L2353 396 L2404 398 L2452 397 L2504 398 L2554 399 L2604 400 L2611 400 L2611 445 L2603 445 L2553 444 L2503 443 L2453 442 L2403 443 L2353 441 L2303 441 L2254 441 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Fredrick Hendrick"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

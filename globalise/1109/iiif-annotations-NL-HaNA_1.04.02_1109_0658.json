@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1109/iiif-annotations-NL-HaNA_1.04.02_1109_0658.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:de251b42-6538-44e8-8c5d-188258b5ce88",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1109.json/canvas/p658",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1926,592,258,50"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"642\" width=\"2513\"><path d=\"M1926 597 L1976 594 L2027 592 L2078 592 L2128 592 L2178 592 L2183 592 L2184 637 L2178 637 L2128 637 L2078 637 L2028 637 L1979 639 L1929 642 Z M2220 591 L2227 591 L2278 591 L2327 590 L2378 590 L2427 589 L2477 588 L2512 587 L2513 632 L2478 633 L2428 634 L2378 635 L2328 635 L2278 636 L2228 636 L2220 636 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Henrick Brouwer"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

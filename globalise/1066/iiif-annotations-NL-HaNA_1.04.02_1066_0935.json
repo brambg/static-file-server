@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1066/iiif-annotations-NL-HaNA_1.04.02_1066_0935.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:fc07e286-df44-44f0-a93b-2efb5e57c653",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1066.json/canvas/p935",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1879,1778,95,48"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1841\" width=\"2382\"><path d=\"M1881 1778 L1926 1780 L1974 1781 L1973 1826 L1925 1825 L1879 1823 Z M2006 1782 L2026 1782 L2076 1784 L2127 1787 L2177 1790 L2227 1793 L2277 1796 L2324 1795 L2374 1794 L2382 1794 L2382 1839 L2375 1839 L2325 1840 L2274 1841 L2224 1838 L2174 1835 L2124 1832 L2075 1829 L2025 1827 L2005 1827 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Jan Cartensoonen"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

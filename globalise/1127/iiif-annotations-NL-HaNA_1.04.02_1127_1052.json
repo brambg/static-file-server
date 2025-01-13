@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1127/iiif-annotations-NL-HaNA_1.04.02_1127_1052.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:52551145-82b6-413b-a565-4ab3af09249b",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1127.json/canvas/p1052",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2115,334,280,48"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"382\" width=\"2793\"><path d=\"M2115 337 L2117 337 L2167 336 L2218 336 L2268 336 L2317 335 L2368 335 L2394 334 L2395 379 L2368 380 L2318 380 L2268 381 L2218 381 L2168 381 L2118 382 L2116 382 Z M2434 334 L2468 334 L2517 333 L2552 332 L2554 377 L2518 378 L2468 379 L2434 379 Z M2593 330 L2618 330 L2668 330 L2718 330 L2771 335 L2793 336 L2792 381 L2767 380 L2718 375 L2668 375 L2618 375 L2593 375 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Coopman van Sanen"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

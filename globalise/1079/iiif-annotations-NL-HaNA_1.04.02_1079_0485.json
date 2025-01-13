@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1079/iiif-annotations-NL-HaNA_1.04.02_1079_0485.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:0cbedef6-ddc5-45ff-ba4a-b796e7874462",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1079.json/canvas/p485",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1172,1038,118,54"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1092\" width=\"1981\"><path d=\"M1172 1053 L1174 1052 L1239 1042 L1285 1038 L1290 1082 L1243 1087 L1197 1091 L1195 1092 Z M1362 1042 L1366 1045 L1393 1037 L1441 1036 L1485 1035 L1486 1080 L1442 1081 L1392 1082 L1335 1078 L1331 1075 Z M1525 1036 L1532 1034 L1591 1030 L1641 1029 L1683 1028 L1684 1073 L1642 1074 L1592 1075 L1545 1077 L1538 1079 Z M1728 1027 L1737 1026 L1791 1024 L1841 1022 L1891 1020 L1941 1018 L1980 1017 L1981 1062 L1942 1063 L1892 1065 L1842 1067 L1792 1069 L1743 1071 L1734 1072 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "P. van den Braek"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

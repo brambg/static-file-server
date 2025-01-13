@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1080/iiif-annotations-NL-HaNA_1.04.02_1080_0531.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:f4a233db-1adc-4ca0-9819-653c8025102b",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1080.json/canvas/p531",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1327,2284,34,46"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"2408\" width=\"1590\"><path d=\"M1328 2284 L1361 2285 L1359 2330 L1327 2329 Z M1392 2287 L1427 2287 L1478 2289 L1528 2291 L1551 2290 L1552 2335 L1527 2336 L1477 2334 L1427 2332 L1391 2332 Z M1313 2352 L1363 2353 L1413 2354 L1463 2356 L1513 2358 L1563 2359 L1590 2364 L1582 2408 L1562 2404 L1512 2403 L1462 2401 L1412 2399 L1362 2398 L1312 2397 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "S RXRES PLEE"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

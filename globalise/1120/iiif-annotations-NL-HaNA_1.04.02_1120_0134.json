@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1120/iiif-annotations-NL-HaNA_1.04.02_1120_0134.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:d39a8408-1d8b-46c1-92fd-cf15044cb432",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1120.json/canvas/p134",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2189,323,720,57"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"380\" width=\"2909\"><path d=\"M2189 323 L2223 324 L2271 323 L2323 325 L2373 327 L2422 327 L2471 326 L2521 325 L2573 326 L2623 328 L2673 329 L2723 330 L2771 329 L2823 330 L2873 331 L2909 335 L2904 380 L2872 376 L2822 375 L2772 374 L2722 375 L2672 374 L2622 373 L2572 371 L2522 370 L2472 371 L2422 372 L2372 372 L2322 370 L2272 368 L2222 369 L2189 368 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Beeckmeckers"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

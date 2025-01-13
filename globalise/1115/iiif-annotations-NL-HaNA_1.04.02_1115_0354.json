@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1115/iiif-annotations-NL-HaNA_1.04.02_1115_0354.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:2bf8ba3b-615e-4c68-bb99-9571ebdb0d7c",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1115.json/canvas/p354",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2830,1230,276,50"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1292\" width=\"3482\"><path d=\"M2830 1231 L2844 1230 L2895 1230 L2945 1230 L2995 1230 L3046 1232 L3097 1235 L3106 1235 L3104 1280 L3094 1280 L3045 1277 L2995 1275 L2945 1275 L2895 1275 L2845 1275 L2832 1276 Z M3140 1237 L3146 1237 L3196 1238 L3244 1241 L3241 1286 L3195 1283 L3145 1282 L3139 1282 Z M3272 1243 L3292 1241 L3346 1243 L3396 1244 L3446 1246 L3482 1247 L3481 1292 L3445 1291 L3395 1289 L3345 1288 L3296 1286 L3277 1288 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Cornelis van houcen"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1115/iiif-annotations-NL-HaNA_1.04.02_1115_0176.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:f9c87ed2-4c28-42c3-b233-20b9ca7b7ba9",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1115.json/canvas/p176",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2572,1250,380,57"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1421\" width=\"2952\"><path d=\"M2573 1250 L2623 1252 L2674 1255 L2723 1257 L2772 1257 L2821 1256 L2873 1258 L2922 1258 L2952 1262 L2944 1307 L2922 1303 L2872 1303 L2822 1301 L2772 1302 L2722 1302 L2671 1300 L2622 1297 L2572 1295 Z M2659 1367 L2709 1374 L2754 1374 L2805 1375 L2854 1375 L2904 1375 L2946 1376 L2945 1421 L2904 1420 L2854 1420 L2804 1420 L2754 1419 L2703 1419 L2653 1412 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Banda \nGenerale"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Location"
+                }
+            ]
+        }
+    ]
+}

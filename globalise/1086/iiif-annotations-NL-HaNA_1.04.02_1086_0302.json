@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1086/iiif-annotations-NL-HaNA_1.04.02_1086_0302.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:de6809f0-69d6-4974-bd43-2eb46ebac056",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1086.json/canvas/p302",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2370,2933,44,49"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"3073\" width=\"2643\"><path d=\"M2374 2933 L2414 2937 L2410 2982 L2370 2978 Z M2455 2941 L2476 2944 L2525 2950 L2574 2955 L2609 2955 L2609 3000 L2570 3000 L2520 2995 L2470 2989 L2449 2986 Z M2351 3003 L2401 3005 L2453 3009 L2503 3014 L2554 3020 L2603 3024 L2643 3028 L2638 3073 L2599 3069 L2549 3065 L2499 3059 L2449 3054 L2400 3050 L2350 3048 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "S KVIS ARCHTEP"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

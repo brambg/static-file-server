@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1110/iiif-annotations-NL-HaNA_1.04.02_1110_0546.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:a31634f6-2c95-4de0-add0-0472e02bf0a4",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1110.json/canvas/p546",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2550,663,246,55"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"718\" width=\"3286\"><path d=\"M2550 673 L2551 673 L2601 671 L2650 668 L2701 666 L2751 664 L2795 663 L2796 708 L2752 709 L2702 711 L2653 713 L2602 716 L2552 718 L2552 718 Z M2829 662 L2850 661 L2901 659 L2951 657 L3001 655 L3004 655 L3006 700 L3002 700 L2952 702 L2902 704 L2853 706 L2832 707 Z M3039 653 L3051 653 L3100 650 L3151 648 L3200 645 L3249 640 L3282 637 L3286 682 L3253 685 L3203 690 L3152 693 L3103 695 L3052 698 L3041 698 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Boucken vande Compte"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Location"
+                }
+            ]
+        }
+    ]
+}

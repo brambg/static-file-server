@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1081/iiif-annotations-NL-HaNA_1.04.02_1081_0121.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:685db829-775a-4682-864b-f4e5b78a4a4d",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1081.json/canvas/p121",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1499,793,40,48"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"841\" width=\"2118\"><path d=\"M1499 796 L1535 793 L1539 838 L1503 841 Z M1572 790 L1596 788 L1648 786 L1696 782 L1748 781 L1798 779 L1848 777 L1897 774 L1901 774 L1901 819 L1900 819 L1849 822 L1799 824 L1749 826 L1700 827 L1649 831 L1600 833 L1575 835 Z M1937 774 L1949 774 L1998 772 L2049 772 L2100 773 L2118 773 L2118 818 L2099 818 L2049 817 L1999 817 L1949 819 L1937 819 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "4 September 1623"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Date"
+                }
+            ]
+        }
+    ]
+}

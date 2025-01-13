@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1056/iiif-annotations-NL-HaNA_1.04.02_1056_0318.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:0a706149-6504-4ea7-aa75-d1e50a3b3db6",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1056.json/canvas/p318",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2903,798,63,46"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"899\" width=\"3122\"><path d=\"M2904 798 L2943 799 L2966 799 L2966 844 L2942 844 L2903 843 Z M2997 799 L3042 799 L3092 799 L3121 798 L3122 843 L3092 844 L3042 844 L2997 844 Z M2328 854 L2378 849 L2430 848 L2482 849 L2531 849 L2582 850 L2582 850 L2582 895 L2581 895 L2531 894 L2481 894 L2431 893 L2382 894 L2332 899 Z M2618 850 L2631 850 L2680 849 L2732 850 L2782 851 L2797 851 L2797 896 L2781 896 L2731 895 L2681 894 L2631 895 L2618 895 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Hr gouv Lourens Reael"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

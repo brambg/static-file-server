@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1120/iiif-annotations-NL-HaNA_1.04.02_1120_0790.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:b9ad974e-a687-4360-86f6-38c7e2dd3f54",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1120.json/canvas/p790",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=3163,572,201,48"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"631\" width=\"3727\"><path d=\"M3163 574 L3187 572 L3240 573 L3289 573 L3340 574 L3364 575 L3362 620 L3339 619 L3289 618 L3239 618 L3190 617 L3166 618 Z M3397 576 L3440 578 L3489 578 L3540 580 L3590 582 L3640 584 L3689 584 L3727 586 L3724 631 L3689 629 L3639 629 L3589 627 L3539 625 L3489 623 L3439 623 L3395 621 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Daniel Reijniers"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

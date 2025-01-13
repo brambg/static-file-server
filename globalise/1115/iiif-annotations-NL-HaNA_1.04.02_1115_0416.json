@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1115/iiif-annotations-NL-HaNA_1.04.02_1115_0416.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:9e40d0b9-777e-44d2-b026-3a5d56d0dd40",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1115.json/canvas/p416",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=3563,1211,169,60"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1299\" width=\"3732\"><path d=\"M3567 1211 L3613 1215 L3662 1218 L3713 1223 L3732 1227 L3724 1271 L3709 1268 L3659 1263 L3609 1260 L3563 1256 Z M2707 1254 L2757 1248 L2808 1248 L2808 1293 L2762 1293 L2712 1299 Z M2841 1248 L2861 1248 L2911 1248 L2962 1250 L3011 1250 L3062 1251 L3103 1254 L3100 1299 L3061 1296 L3011 1295 L2961 1295 L2911 1293 L2861 1293 L2841 1293 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Raed van Justitie"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Organisation"
+                }
+            ]
+        }
+    ]
+}

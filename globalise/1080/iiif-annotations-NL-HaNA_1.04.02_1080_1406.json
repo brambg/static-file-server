@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1080/iiif-annotations-NL-HaNA_1.04.02_1080_1406.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:b2ac5e09-fde4-4247-9f54-9cf2bd1c46bc",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1080.json/canvas/p1406",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2255,3168,76,50"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"3292\" width=\"2548\"><path d=\"M2259 3168 L2309 3172 L2331 3173 L2329 3218 L2305 3217 L2255 3213 Z M2366 3176 L2405 3175 L2456 3175 L2505 3174 L2523 3177 L2510 3221 L2506 3219 L2456 3220 L2406 3220 L2366 3221 Z M2259 3247 L2309 3243 L2361 3242 L2412 3242 L2461 3240 L2511 3239 L2548 3247 L2538 3291 L2512 3284 L2462 3285 L2412 3287 L2362 3287 L2313 3288 L2263 3292 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "JS AERS AXEMtEI"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

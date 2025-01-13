@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1066/iiif-annotations-NL-HaNA_1.04.02_1066_0168.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:f0c445dc-8527-4f07-a2c1-1b82397f5d42",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1066.json/canvas/p168",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1622,2243,117,49"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"2292\" width=\"2327\"><path d=\"M1623 2243 L1673 2244 L1724 2247 L1739 2247 L1739 2292 L1721 2292 L1672 2289 L1622 2288 Z M1799 2245 L1823 2246 L1867 2239 L1920 2236 L1971 2234 L1971 2234 L1974 2279 L1972 2279 L1923 2281 L1873 2284 L1822 2291 L1798 2290 Z M2022 2231 L2063 2219 L2118 2212 L2171 2211 L2222 2211 L2273 2212 L2323 2219 L2327 2219 L2323 2264 L2321 2264 L2272 2257 L2222 2256 L2172 2256 L2123 2257 L2075 2263 L2035 2274 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "P. des Liman"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Person"
+                }
+            ]
+        }
+    ]
+}

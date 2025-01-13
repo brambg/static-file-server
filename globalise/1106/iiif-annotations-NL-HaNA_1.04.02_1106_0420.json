@@ -1,0 +1,48 @@
+{
+    "@id": "https://brambg.github.io/static-file-server/globalise/1106/iiif-annotations-NL-HaNA_1.04.02_1106_0420.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "urn:globalise:annotation:9a8105fc-d75a-4a86-a01f-5269a9ed8cd5",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:Tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://data.globalise.huygens.knaw.nl/manifests/inventories/1106.json/canvas/p420",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2036,1496,636,69"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg height=\"1565\" width=\"2672\"><path d=\"M2036 1497 L2086 1496 L2138 1497 L2190 1501 L2240 1505 L2286 1504 L2338 1505 L2390 1509 L2440 1513 L2488 1515 L2536 1514 L2589 1517 L2639 1520 L2671 1519 L2672 1564 L2636 1565 L2586 1562 L2537 1559 L2487 1560 L2436 1558 L2386 1554 L2337 1550 L2287 1549 L2236 1550 L2186 1546 L2137 1542 L2087 1541 L2037 1542 Z\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "h",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "Banggmel"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "format": "text/html",
+                    "chars": "Location"
+                }
+            ]
+        }
+    ]
+}
