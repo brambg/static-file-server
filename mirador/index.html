@@ -28,10 +28,34 @@
         id: 'viewer',
         windows: [
             {
-                loadedManifest: "https://brambg.github.io/static-file-server/globalise/1053/1053.json",
-                thumbnailNavigationPosition: "far-bottom",
-            },
+                manifestId: "https://brambg.github.io/static-file-server/globalise/1053/1053.json"
+            }
         ],
+        window: {
+            id: "window1",
+            panels: { // Configure which panels are visible in WindowSideBarButtons
+                info: true,
+                attribution: true,
+                canvas: true,
+                annotations: true,
+                search: true
+            },
+            allowClose: false,
+            allowMaximize: false,
+            sideBarOpen: true,
+            sideBarPanel: 'annotations',
+            defaultSidebarPanelWidth: 420,
+            highlightAllAnnotations: false,
+        },
+        workspaceControlPanel: {
+            enabled: true,
+        },
+        annotations: {
+            htmlSanitizationRuleSet: 'iiif', // See src/lib/htmlRules.js for acceptable values
+            filteredMotivations: ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging',
+                'supplementing'
+            ],
+        }
     });
 </script>
 
