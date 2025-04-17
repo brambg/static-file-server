@@ -19,8 +19,8 @@
 
 <div id="viewer"></div>
 
-<!--<script src="build/mirador/mirador.min.js"></script>-->
-<script src="https://lvanwissen.github.io/fricktalk-2023/assets/js/mirador.min.js"></script>
+<script src="build/mirador/mirador.min.js"></script>
+<!--<script src="https://lvanwissen.github.io/fricktalk-2023/assets/js/mirador.min.js"></script>-->
 
 <script type="text/javascript">
     // Called without "let" or "var"
@@ -29,7 +29,7 @@
         id: 'viewer',
         windows: [
             {
-                manifestId: "https://brambg.github.io/static-file-server/globalise/1053/1053.json"
+                manifestId: "http://localhost:8000/globalise/1053/1053.json"
             }
         ],
         window: {
@@ -46,16 +46,16 @@
             sideBarOpen: true,
             sideBarPanel: 'annotations',
             defaultSidebarPanelWidth: 420,
-            highlightAllAnnotations: true
+            highlightAllAnnotations: false
         },
         workspaceControlPanel: {
             enabled: true,
-        // },
-        // annotations: {
-        //     htmlSanitizationRuleSet: 'iiif', // See src/lib/htmlRules.js for acceptable values
-        //     filteredMotivations: ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging',
-        //         'supplementing'
-        //     ],
+        },
+        annotations: {
+            htmlSanitizationRuleSet: 'iiif', // See src/lib/htmlRules.js for acceptable values
+            filteredMotivations: ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging',
+                'supplementing'
+            ],
         }
     });
 </script>
