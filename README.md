@@ -1,1 +1,1 @@
-Hello World!
+#see https://brambg.github.io/static-file-server/
